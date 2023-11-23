@@ -90,7 +90,7 @@ SELECT software_houses.id AS software_house_id, awards.* FROM software_houses JO
 SELECT DISTINCT videogames.* FROM videogames JOIN tournament_videogame ON videogames.id = tournament_videogame.videogame_id JOIN player_tournament ON tournament_videogame.tournament_id = player_tournament.tournament_id JOIN players ON player_tournament.player_id = players.id WHERE players.name LIKE 'S%';
 
 
-8- Selezionare le cittÃ in cui Ã¨ stato giocato il gioco dell'anno del 2018 (36)
+8- Selezionare le cittÃ in cui è stato giocato il gioco dell'anno del 2018 (36)
 
 9- Selezionare i giocatori che hanno giocato al gioco piÃ¹ atteso del 2018 in un torneo del 2019 (3306)
 
